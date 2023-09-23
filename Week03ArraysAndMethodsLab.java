@@ -199,7 +199,7 @@ return lengths;
 //firstName[2] = "Thomas";
 //firstName[3] = "Robert";
 // 	
-public static boolean[] arr(String[] firstName) {
+public static boolean arr(String[] firstName) {
 	int sum1 = 0;
 	int sum2 = 0;		
 	for(int i = 0; i < firstName.length; i++) {
@@ -212,6 +212,7 @@ public static boolean[] arr(String[] firstName) {
 	if(sum1 > sum2) {
 		return true; 
 	}
+	return false;
 }
 	
 	
